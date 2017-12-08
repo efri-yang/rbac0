@@ -2,6 +2,7 @@
 
 require_once 'config.php';
 checkLogined();
+ print_r($_SESSION['permission']);
 ?>
 
 <!DOCTYPE html>
